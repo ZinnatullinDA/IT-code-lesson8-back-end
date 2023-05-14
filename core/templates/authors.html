@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    Авторы книг
+{% endblock %}
+
+{% block content %}
+    <h1>Список авторов</h1>
+    <ul>
+        {% for author in authors %}
+            <li>{{ author.name }}  (<a href="books_by_author/{{author.name}}">Перейти</a>)</li>
+        {% endfor %}
+    </ul>
+    <a href="/">Назад</a>
+{% endblock %}
