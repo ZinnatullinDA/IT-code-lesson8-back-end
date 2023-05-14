@@ -1,4 +1,4 @@
-﻿# IT-code-lesson7-back-end-
+﻿# IT-code-lesson8-back-end-
 ДЗ по уроку 8:
 1) Придумать предметную область и расписать по ней 3-4 модели (обязательно
 использовать связи foreign_key и many_to_many)
