@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    Список книг
+{% endblock %}
+
+{% block content %}
+    <h1>Список книг</h1>
+    <ul>
+        {% for book in books %}
+            <li>{{ book.title }}</li>
+        {% endfor %}
+    </ul>
+    <a href="/">Назад</a>
+{% endblock %}
